@@ -84,7 +84,7 @@ public class Leerfichero {
 		
 		System.out.println(LeerPalabras(" ","src/practica1/lin_quijote.txt","Quijote"));
 		System.out.println(Contiene("Quijote","src/practica1/lin_quijote.txt"));
-		System.out.println(ContarPalabrasUnicas("src/practica1/lin_quijote.txt"));
+		System.out.println(ContarPalabrasUnicas("src/practica1/archivo_palabras.txt"));
 		System.out.println(MediaDeLasLineas("src/practica1/palabras_random.csv",","));
 	}
 }
