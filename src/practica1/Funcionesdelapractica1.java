@@ -12,9 +12,11 @@ public class Funcionesdelapractica1 {
 
 	public static Integer CalculoDelProducto(Integer n, Integer k) {
 		Integer solucion = 1;
-		for (int i = 0; i <= k - 1; i++) {
-			solucion = solucion * (n - i + 1);
+		if (n > k) {
+			for (int i = 0; i <= k - 1; i++) {
+				solucion = solucion * (n - i + 1);
 
+			}
 		}
 		return solucion;
 
