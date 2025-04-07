@@ -1,5 +1,6 @@
 package entrega5;
 import java.util.List;
+import java.util.NoSuchElementException;
 import java.util.ArrayList;
 
 public abstract class AgregadoLineal<E> {
@@ -26,9 +27,10 @@ public abstract class AgregadoLineal<E> {
 			this.add(i);
 		}
 	}
-	public void remove(E e) {
-        this.elementos.remove(e);
-    }
+	public E remove() {
+        if (isEmpty()) throw new NoSuchElementException("No se puede eliminar de un agregado vacío.");
+        return elementos.remove(0);
+	}
 	public void removeAll(List<E> lista) {
         this.elementos.clear();
   
