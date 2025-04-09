@@ -47,7 +47,7 @@ public class ListaOrdenada<E> extends AgregadoLineal<E> {
         System.out.println(lista.size());
         System.out.println(lista);
 
-        lista.remove(1);
+        lista.remove();
         lista.elementos();
         System.out.println(lista.elementos());
         lista.addAll(Arrays.asList(4, 6, 7));
