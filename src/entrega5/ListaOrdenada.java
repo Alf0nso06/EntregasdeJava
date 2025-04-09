@@ -61,7 +61,7 @@ public class ListaOrdenada<E> extends AgregadoLineal<E> {
         listaStrings.addAll(Arrays.asList("banana", "apple", "date", "cherry"));
         listaStrings.elementos();
         System.out.println(listaStrings);
-    }//
+    }
 
 	
 }
